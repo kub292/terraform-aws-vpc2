@@ -1,6 +1,6 @@
 module "vpc" {
     #source = "../c/devops/daws-78s/repos/terraform-aws-vpc"
-    source = "git::https://github.com/kub292/terraform-aws-vpc/tree/main"
+    source = "https://github.com/kub292/terraform-aws-vpc2.git?ref=main"
     project_name = var.project_name
     common_tags = var.common_tags
     public_subnet_cidrs = var.public_subnet_cidrs
